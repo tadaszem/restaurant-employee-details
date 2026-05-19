@@ -63,6 +63,11 @@
     "vaul": "^1.1.2",
     "zod": "3.25.76"
   },
+  "pnpm": {
+    "overrides": {
+      "next>postcss": "8.5.14"
+    }
+  },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.9",
     "@types/node": "^22",
